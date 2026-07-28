@@ -1,14 +1,3 @@
-# musictype
-
-A typing game where the text types you back. Load a song and its synced
-lyrics, and type each line while it plays — MonkeyType, but the timing is not
-yours to choose.
-
-**[Live demo](https://your-username.github.io/musictype/)** · no account, no
-backend, nothing leaves your browser.
-
-![screenshot](docs/screenshot.png)
-
 ## What makes it different from a typing test
 
 A normal typing test measures how fast you go. This one decides *when* you go.
