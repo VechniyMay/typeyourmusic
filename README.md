@@ -1,14 +1,3 @@
-# musictype
-
-A typing game where the text types you back. Load a song and its synced
-lyrics, and type each line while it plays — MonkeyType, but the timing is not
-yours to choose.
-
-**[Live demo](https://your-username.github.io/musictype/)** · no account, no
-backend, nothing leaves your browser.
-
-![screenshot](docs/screenshot.png)
-
 ## What makes it different from a typing test
 
 A normal typing test measures how fast you go. This one decides *when* you go.
@@ -23,8 +12,8 @@ advances — stopping to fix mistakes costs more than the mistakes themselves.
 ## Quick start
 
 ```bash
-git clone https://github.com/your-username/musictype.git
-cd musictype
+git clone https://github.com/your-username/typeyourmusic.git
+cd typeyourmusic
 npm install
 npm run dev
 ```
@@ -260,7 +249,7 @@ cursor behaviour after a mistake, line expiry, and the scoring maths.
 GITHUB_PAGES=1 npm run build
 ```
 
-The env var switches the Vite `base` to `/musictype/`; without it the build
+The env var switches the Vite `base` to `/typeyourmusic/`; without it the build
 assumes it is served from the domain root. The output in `dist/` is fully
 static — any file host will do.
 
